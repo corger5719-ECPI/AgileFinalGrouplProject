@@ -1,4 +1,4 @@
-# AgileFinalGrouplProject
+# AgileFinalGroupProject - TEAM 1
 # Menu-Driven C Application
 
 ## Overview
