@@ -1,32 +1,27 @@
-# AgileFinalGroupProject - TEAM 1
 # Menu-Driven C Application
 
 ## Overview
-This project is a menu-driven C application developed using modular programming techniques. 
-Each feature is separated into its own source and header file to improve organization, 
-readability, and maintainability.
+This project is a **menu-driven console application written in C**.  
+It demonstrates **modular programming**, where each major feature is separated
+into its own source (`.c`) and header (`.h`) file.
+
+The application allows users to select options from a menu, perform actions
+such as reading from and writing to a file, and continue running until an
+exit option is selected.
+
+This project was designed to follow common **software engineering best practices**
+and introductory **C programming standards**.
+
+---
 
 ## Features
-- Menu-driven user interface
-- File read and write operations
+- Text-based menu system
 - Modular design using header files
-- Continuous program loop until exit is selected
+- File input and output
+- Continuous program loop until exit
+- Compiles into a single executable
 
-## File Structure
-- main.c – Program entry point and control loop
-- menu.c / menu.h – Displays menu and captures user selection
-- optionSelector.c / optionSelector.h – Routes menu options to functions
-- writeFile.c / writeFile.h – Writes data to a file
-- readFile.c / readFile.h – Reads data from a file
+---
 
-## How to Compile
+## Project File Structure
 
-### Linux / macOS
-```bash
-gcc main.c menu.c optionSelector.c writeFile.c readFile.c -o menuApp
-./menuApp
-
-### Windows
-```bash
-gcc main.c menu.c optionSelector.c writeFile.c readFile.c -o menuApp.exe
-menuApp.exe
