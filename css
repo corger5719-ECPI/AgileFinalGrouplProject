@@ -1,0 +1,14 @@
+MenuDrivenApp/
+│
+├── main.c
+├── menu.c
+├── optionSelector.c
+├── writeFile.c
+├── readFile.c
+│
+├── menu.h
+├── optionSelector.h
+├── writeFile.h
+├── readFile.h
+│
+└── README.md
