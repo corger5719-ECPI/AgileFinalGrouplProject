@@ -26,6 +26,7 @@ readability, and maintainability.
 gcc main.c menu.c optionSelector.c writeFile.c readFile.c -o menuApp
 ./menuApp
 
+### Windows
+''' bash
 gcc main.c menu.c optionSelector.c writeFile.c readFile.c -o menuApp.exe
 menuApp.exe
-
