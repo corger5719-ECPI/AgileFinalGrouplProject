@@ -1,1 +1,62 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+        Assignment: Team Menu-Driven Application
+        File: index.html
+        Author: Your Name
+        Date: YYYY-MM-DD
+
+        Purpose:
+        This page provides the main user interface for a menu-driven
+        web application. Users can select options to access different
+        modules (calculations, reports, file tasks, etc.) that will be
+        implemented in JavaScript.
+    -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Menu-Driven Application</title>
+
+    <!-- Optional: external CSS file for styling (you can create styles.css later) -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- JavaScript for handling menu actions (we'll add app.js later) -->
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Team Menu-Driven Application</h1>
+        <p>Use the menu below to access different modules.</p>
+    </header>
+
+    <main>
+        <!-- Menu Section -->
+        <section id="main-menu">
+            <h2>Main Menu</h2>
+            <p>Select an option:</p>
+
+            <!-- Buttons act as menu options; JS will handle what they do -->
+            <div class="menu-options">
+                <button id="option1">1. Run Calculation Module</button>
+                <button id="option2">2. Run Reporting Module</button>
+                <button id="option3">3. File Management Module</button>
+                <button id="option4">4. Settings / Admin Module</button>
+                <button id="optionExit">0. Exit / Clear Output</button>
+            </div>
+        </section>
+
+        <!-- Output Area -->
+        <section id="output-section">
+            <h2>Module Output</h2>
+            <p id="output-message">
+                No option selected yet. Choose a menu option to begin.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Team Project – Menu-Driven Application</p>
+    </footer>
+</body>
+</html>
