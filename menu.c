@@ -3,27 +3,25 @@
 #include "menu.h"
 
 /*
- * Function: menu
- * Purpose: Clears the screen, displays menu options,
- *          and retrieves user input
- * Returns: Integer representing selected menu option
- */
+    menu()
+    Clears the screen, displays menu options,
+    and returns the selected option as an integer.
+*/
 int menu(void)
 {
     int choice;
 
-    // Clear the screen for a clean menu display
-    // Use "cls" for Windows, "clear" for Linux/macOS
-    system("clear");
+    system("cls");  // Clear screen (Windows / Dev-C++)
 
-    printf("===== MAIN MENU =====\n");
-    printf("1. Write to file\n");
-    printf("2. Read from file\n");
-    printf("3. Calculation 1\n");
-    printf("4. Calculation 2\n");
-    printf("5. Exit\n");
-    printf("Select an option: ");
-
+    printf("=================================\n");
+    printf("        MAIN MENU\n");
+    printf("=================================\n");
+    printf("1. Option One\n");
+    printf("2. Option Two\n");
+    printf("3. Write to File\n");
+    printf("4. Exit\n");
+    printf("=================================\n");
+    printf("Enter your choice: ");
     scanf("%d", &choice);
 
     return choice;
