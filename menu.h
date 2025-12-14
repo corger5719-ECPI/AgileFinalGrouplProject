@@ -2,10 +2,11 @@
 #define MENU_H
 
 /*
- * Function: menu
- * Purpose: Displays the menu options to the user
- * Returns: Integer representing the user's selected option
- */
+    menu.h
+    Declares the menu function that displays
+    menu options and returns the user's choice.
+*/
+
 int menu(void);
 
 #endif
