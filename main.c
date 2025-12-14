@@ -1,28 +1,24 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "menu.h"
-#include "optionSelector.h"
+#include "main.h"
 
 /*
- * Function: main
- * Purpose: Entry point of the application
- * Returns: 0 upon successful execution
- */
+    main()
+    Program entry point.
+    Continuously displays the menu and
+    processes user selections until exit.
+*/
 int main(void)
 {
-    int option;
+    int option = 0;
 
-    // Loop until user selects Exit option
     do
     {
         option = menu();
+        mainLoop(option);
 
-        if (option != 5)
-        {
-            mainLoop(option);
-        }
+    } while (option != 4);
 
-    } while (option != 5);
-
-    printf("Program exited successfully.\n");
     return 0;
 }
